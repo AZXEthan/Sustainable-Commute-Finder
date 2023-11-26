@@ -4,34 +4,20 @@ CS 3300 (Fall 2023) Project 1 - Group 8
 
 ## Visit
 
-Deployed @ [CS3300 Project 1](https://cs3300proj1frontend.ue.r.appspot.com/)
+Deployed @ [CS3300 Project 2](cs3300-gcp-assignment-401202.uc.r.appspot.com/)
 
 ## Release Notes
 
-### New Features
+### Main Features
 
-#### V6.0 - Transportation Options Dropdown Menu & UI Enhancements
+#### V3.0 -  Generate QR code Component
 
-- Introduced a dropdown menu for transportation options and enhanced UI.
-- Users can now easily compare carbon footprints for various transport modes.
+- Based on the information provided from the restaurant hosters, a identical QR code would be created to each restaurants.
+- Customers can scan the QR code directly and require meun directly.
 
-#### V5.0 - Carbon Footprint Estimation for Different Modes of Transportation
+#### V2.0 - Collect information from hosters.
 
-- Added the feature to estimate the carbon footprint associated with different travel modes.
-- Users receive suggestions for eco-friendly transportation alternatives.
-
-#### V4.0 - Distance Calculator for Location Markers
-
-- Calculates the distance between the location markers on the map.
-
-#### V3.0 - Location Markers on Map
-
-- Users can now place and adjust location markers on the map.
-
-#### V2.0 - Interactive Map Component
-
-- A responsive, dynamic map with zoom capabilities.
-- Implemented with React Leaflet.
+- Hosters can put their menu items one by one into information collection page.
 
 #### V1.0 - Login and Signup Pages
 
@@ -46,7 +32,7 @@ Refer to the [Troubleshooting](#troubleshooting) section for bug fixes and resol
 
 | Components |                     Technology                      |
 | :--------- | :-------------------------------------------------: |
-| Frontend   | Vite 4.0, React 18.2.0, Googlemap_API, leaflet4.2.1 |
+| Frontend   |               Vite 4.0, React 18.2.0                |
 | Backend    |             Spring Boot 3.1.4, Java 17              |
 | Database   |                     mongodb 7.0                     |
 | Build      |                     MAVEN, GCP                      |
@@ -117,7 +103,7 @@ gcloud app browse
 Navigate to `./frontend/` directory and execute
 
 ```
-npm install
+npm install / npm i
 npm run dev
 ```
 
